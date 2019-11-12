@@ -14,7 +14,7 @@ ul li {
   position: relative;
 }
 
-button {
-  background-color: #FEBEFD;
-  border-color: #FEBEFD;
+input[type="checkbox" i] {
+vertical-align: middle;
+margin-left: 20px;
 }
