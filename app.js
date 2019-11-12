@@ -14,7 +14,7 @@ function onReady() {
    checkbox.type = "checkbox";
    //delete button
   let deleteBtn = document.createElement('button');
-  deleteBtn.textContent = "Delete";
+  deleteBtn.textContent = "button";
 
   deleteBtn.addEventListener('click', function(event){
   toDoList.removeChild(this.parentElement);
