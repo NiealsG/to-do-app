@@ -3,7 +3,7 @@ function onReady() {
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
   addToDoForm.addEventListener('submit', () => {
-    event.preventDefault();
+      event.preventDefault();
     // get the text
    let title = newToDoText.value;
    // create a new li
@@ -18,7 +18,7 @@ function onReady() {
 
   deleteBtn.addEventListener('click', function(event){
   toDoList.removeChild(this.parentElement);
-    })
+  });
    // set the title
    newLi.textContent = title;
    // attach the checkbox to the li

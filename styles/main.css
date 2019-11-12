@@ -13,14 +13,8 @@ form {
 ul li {
   cursor: pointer;
   position: relative;
-/*padding: 0px 8px 12px 40px;*/
-  transition: 0.2s;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
-/* Darker background-color on hover
-ul li:hover {
-  background: #ddd;*/
 
 button {
   background-color: #FEBEFD;
